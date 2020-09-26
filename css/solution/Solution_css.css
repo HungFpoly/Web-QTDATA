@@ -1,0 +1,115 @@
+.header {
+    background: #262626;
+    height: 90px;
+}
+
+.header h3 {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    margin: 0px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.tile {
+    margin: 0px;
+    padding: 0px;
+    color: blue;
+}
+
+.menu {
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+.menu a {
+    font-size: 14px;
+    color: #ffffff;
+}
+.section{
+    margin: 0px;
+    padding: 0px;
+}
+.body1 {
+    border-bottom: 1px solid #000000;
+    margin-top: 35px;
+    padding-bottom: 50px;
+}
+.left {
+    margin: 0px;
+    padding: 0px;
+}
+.right {
+    margin: 0px;
+    padding: 0px;
+}
+.view-group {
+    margin: 0px;
+    padding: 0px;
+}
+.view-group h3 {
+    font-size: 35px;
+}
+.view-group p {
+    font-size: 14px;
+}
+.view-group li {
+    background: #ffff00;
+    color: #000000;
+    margin:5px;
+    border-radius: 25px;
+}
+.view-body li {
+    background: #39e600;
+    color: red;
+    padding:2px;
+    border-radius: 5px;
+}
+.view-body {
+    margin-left: 30px;
+
+}
+.view-button {
+    margin-top: 35px;
+    /* margin-bottom: 100px */
+}
+.view-button a {
+    text-decoration: none;
+}
+.btn-TakeATour {
+    opacity: 0.7;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 30px;
+    border-radius: 3px;
+    color: #009900;
+    border: 2px solid #009900;
+}
+.btn-TakeATour:hover {
+    background: #009900;
+    color: #ffffff;
+}
+.btn-DemoVideo {
+    opacity: 0.7;
+    background: #009900;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 3px;
+    color: #ffffff;
+}
+.btn-DemoVideo:hover {
+    opacity: 1;
+    background: #009900;
+     color: #ffffff;
+}
+.body2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
