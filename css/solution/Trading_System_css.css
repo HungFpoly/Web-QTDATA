@@ -29,9 +29,12 @@
 .text-top1 {
     margin-top: 30px;
     margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: 600;
 }
 .text-top1 p {
     color: #0000ff;
+    opacity: 0.6;
 }
 .text-top1 button {
     background: #009900;

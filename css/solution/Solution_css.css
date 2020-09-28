@@ -111,5 +111,45 @@
     margin-top: 30px;
     margin-bottom: 50px;
 }
+@keyframes goleft {
+    from {
+        right: -400px;
+    }
 
+    to {
+        right: 0px;
+    }
+}
+
+@keyframes goright {
+    from {
+        left: -400px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+.animation-left1 {
+    position: relative;
+    animation: goright 4s;
+    /* animation-delay: 2; */
+}
+
+.animation-right1 {
+    position: relative;
+    animation: goleft 4s;
+    /* animation-delay: 2; */
+}
+.animation-left2 {
+    position: relative;
+    animation: goright 6s;
+    /* animation-delay: 2; */
+}
+
+.animation-right2 {
+    position: relative;
+    animation: goleft 6s;
+    /* animation-delay: 2; */
+}
 
