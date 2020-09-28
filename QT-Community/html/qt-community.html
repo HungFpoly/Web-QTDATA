@@ -10,25 +10,8 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
     <script src="../js/validate-form.js"></script>
 
-    <script type="text/javascript">
-        const realfile = document.getElementById("real-file");
-        const btnUpload = document.getElementById("btn-upload");
-        const customTxt = document.getElementById("custom-text");
     
-        btnUpload.addEventListener("click", function () {
-            realfile.click()
-        });
-    
-        realfile.addEventListener("change", function () {
-            if (realfile.value) {
-                customTxt.innerHTML = '<i class="fa fa-paperclip"></i>' + realfile.value
-            }
-            else {
-                customTxt.innerHTML = '<i class="fa fa-paperclip"></i> No file chosen'
-            }
-        })
-    </script>
-    <title>QT-Community</title>
+    <title>QT-Community - QT-Data Inc.</title>
 </head>
 <body>
     <section class="uk-section uk-section-muted uk-padding-larger uk-padding-remove-top"
@@ -37,8 +20,7 @@
     <div class="uk-container">
         <h4 class="h4-custom">
             <a href="https://qntdata.com/donations/qt-donation/" target="_blank" rel="noopener noreferrer"> >>
-                Make
-                a donate to support our work << </a>
+                Make a donate to support our work << </a>
         </h4>
         <h2 class="h2-custom">Send us your question now!</h2>
         <p class=" uk-text-break">
@@ -183,6 +165,23 @@
     </div>
 </section>
 
+<script type="text/javascript">
+    const realfile = document.getElementById("real-file");
+    const btnUpload = document.getElementById("btn-upload");
+    const customTxt = document.getElementById("custom-text");
 
+    btnUpload.addEventListener("click", function () {
+        realfile.click()
+    });
+
+    realfile.addEventListener("change", function () {
+        if (realfile.value) {
+            customTxt.innerHTML = '<i class="fa fa-paperclip"></i>' + realfile.value
+        }
+        else {
+            customTxt.innerHTML = '<i class="fa fa-paperclip"></i> No file chosen'
+        }
+    })
+</script>
 </body>
 </html>

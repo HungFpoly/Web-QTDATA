@@ -46,7 +46,7 @@ body {
 .custom-result{
   margin-top: 10px;
   padding: 8px;
-  font-size: 15px;
+  font-size: 14px;
   border-radius: 5px;
   color: white;
   background-color: #ED5946;
@@ -67,13 +67,12 @@ p {
   font-weight: 500;
 }
 
-
 @media (min-width: 960px) {
   .custom-select {
     margin-left: 50%;
     padding-left: 0;
   }
-  
+
 }
 .h4-custom {
   font: bold 18px "Manjari", Helvetca, Arial, sans-serif;
