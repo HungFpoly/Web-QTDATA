@@ -1,0 +1,47 @@
+.header {
+    background:#262626;
+    height: auto;
+    padding-bottom: 10px;
+}
+.header h3 {
+    padding-bottom:24px;
+    padding-top: 24px;
+    margin: 0px;
+    font-size: 24px;
+    color: #ffffff;
+}
+.tile {
+    margin: 0px;
+    padding: 0px;
+    color: blue;
+}
+.menu {
+     padding-top: 26px;
+     padding-bottom: 26px;
+}
+.menu a{
+    font-size: 14px;
+    color:#ffffff;
+}
+.section {
+    margin-top:  35px;
+    margin-bottom:35px;
+}
+.icon1 {
+    background: #ffff33;
+    border-radius: 20px;
+    padding: 0px;
+    margin: 1px;
+    color: #ff0000;
+}
+.icon2 {
+     /* background: #999;     */
+     border-radius: 3px;
+     padding: 1px;
+     margin: 1px;
+     color: #00ff00;
+     font-style: bold;
+}
+.icon2:hover{
+    background: #ff6600;
+}
