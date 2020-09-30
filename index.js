@@ -16,9 +16,9 @@ app.set('view engine', '.hbs');
 // app.get('/company',function(req,res){
 //     res.render('company')
 // })
-// app.get('/solutions',function(req,res){
-//     res.render('solutions')
-// })
+app.get('/solutions',function(req,res){
+    res.render('Solution')
+})
 app.get('/qt-community',function(req,res){
     res.render('qt-community')
 })
