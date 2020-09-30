@@ -496,9 +496,9 @@
 
 
 .container{
-    height: 2000px;
+    min-height: 500px;
     width: 100%;
-    background-color: aquamarine;
+    background-color: lightblue;
 }
 
 /* footer */
