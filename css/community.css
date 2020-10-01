@@ -1,13 +1,19 @@
+.router-bar{
+  width: 100%;
+  min-height: 90px;
+  background-color: #333333;
+  vertical-align: middle;
+}
 
-body {
-  position: relative;
+
+.custom-section {
   background: #fafafa;
   color: #1b345a;
-  color: #777;
+  color: #444;
   font: 14px "Manjari", Helvetca, Arial, sans-serif;
-  line-height: 20px;
+  line-height: 22px;
   font-weight: normal;
-  font-weight: 400;
+ 
 }
 .uk-grid > label {
   font-size: 13px;
@@ -51,11 +57,6 @@ body {
   color: white;
   background-color: #ED5946;
   
-}
-p {
-  font-size: 14px;
-  font-family: "Manjari", Helvetca, Arial, sans-serif;
-  color: #444;
 }
 .custom-button {
   background-color: #f28728;

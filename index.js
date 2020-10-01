@@ -10,9 +10,9 @@ app.use(express.static('images'));
 app.engine('.hbs', expressHbs());
 app.set('view engine', '.hbs');
 
-// app.get('/home',function(req,res){
-//     res.render('home')
-// })
+app.get('/home',function(req,res){
+    res.render('qt-blog')
+})
 // app.get('/company',function(req,res){
 //     res.render('company')
 // })
