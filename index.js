@@ -29,6 +29,9 @@ app.get ('/account', function (req, res) {
 app.get ('/fogot-password', function (req, res) {
   res.render ('FogotPassword');
 });
+app.get ('/qt-forum', function (req, res) {
+  res.render ('qt-forum');
+});
 
 
 
