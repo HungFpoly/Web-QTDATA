@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    {{!-- Nơi bỏ css của thư viện --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+
+    {{!-- Nơi bỏ css của mình --}}
+    <link rel="stylesheet" href="nav/base.css" />
+    <link rel="stylesheet" href="nav/grid_system.css" />
+    <link rel="stylesheet" href="nav/main.css"/>
+    <link rel="stylesheet" href="nav/responsive.css" />
+    <link rel="stylesheet" href="nav/menudrop_on-mobile.css" />
+    {{!-- css của Tính --}}
+    <link rel="stylesheet" href="/Solution_css.css" />
+    <link rel="stylesheet" href="/QT-Cores_css.css" />
+    <link rel="stylesheet" href="/Hospitality_css.css" />
+    <link rel="stylesheet" href="/Trading_System_css.css" />
+
+    <link rel="stylesheet" href="community.css">
+     {{!-- <link rel="stylesheet" href="home_blog.css">
+    
+    <link rel="stylesheet" href="account.css"> --}}
+
+    {{!-- Nơi bỏ js của thư viện --}}
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
+</head>
+    {{!-- Nơi bỏ js của mình --}}
+     <script src="validate-form.js"></script>
+     
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="grid wide">
+                <div class="nav__on-pc">
+                    <nav class="header__nav">
+                        <ul class="header__nav-list">
+                            <li class="header__nav--item">
+                                <a href="" class="header__nav-item--img">
+                                    <img src="nav/logo.png" alt="Logo" class="logo" />
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="header__nav-list header__nav-list--margin hide__on-mobile-tablet">
+                            <div class="header__nav-company">
+                                <li class="header__nav--item">
+                                    <a href="" class="header__nav-item--link"> Company </a>
+                                    <ul class="header__list-drop--company">
+                                        <li class="header__list-item">
+                                            <a href="" class="header__list-link">Team</a>
+                                        </li>
+                                        <li class="header__list-item">
+                                            <a href="" class="header__list-link">Carees Opportunity</a>
+                                        </li>
+                                        <li class="header__list-item">
+                                            <a href=""
+                                                class="header__list-link header__list-link--bottom">Partnership</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </div>
+
+                            <div class="header__nav-solutions">
+                                <li class="header__nav--item">
+                                    <a href="/solutions" class="header__nav-item--link">
+                                        Solutions
+                                    </a>
+
+                                    <ul class="header__list-drop--solutions">
+                                        <li class="header__list-item--title">
+                                            <a href="./QT-Cores.html"
+                                                class="header__list_link-title--header">QT-Cores</a>
+                                            <a href="./Hospitality.html" class="header__list_link-title">Hospitaily</a>
+                                            <a href="./Trading_system.html" class="header__list_link-title">Trading
+                                                System</a>
+                                            <a href="./consumer-lending-mortgage.html"
+                                                class="header__list_link-title">Consumer Lending & Mortgage</a>
+                                        </li>
+
+                                        <li class="header__list-item--title">
+                                            <a href="./qt-ai-qt-invest.html" class="header__list_link-title--header">QT
+                                                AI & QT INVEST</a>
+                                            <a href="./sale-ota.html" class="header__list_link-title">Sale OTA</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </div>
+                            <li class="header__nav--item">
+                                <a href="/qt-community" class="header__nav-item--link">
+                                    QT-Community
+                                </a>
+                            </li>
+                            <div class="header__nav-forums">
+                                <li class="header__nav--item">
+                                    <a href="" class="header__nav-item--link"> Forums </a>
+
+                                    <ul class="header__list_drop-forums">
+                                        <li class="header__list-item--forums">
+                                            <a href="" class="header__list-list-link--forums">
+                                                QT-Forums</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </div>
+                            <div class="header__nav-resources">
+                                <li class="header__nav--item">
+                                    <a href="./home_blog.html" class="header__nav-item--link">
+                                        Resources
+                                    </a>
+                                </li>
+                                <ul class="header__list_drop-resources">
+                                    <li class="header__list-item--resources">
+                                        <a href="./home_blog.html" class="header__list_link--resources">QT Blogs</a>
+                                        <a href="" class="header__list_link--resources">Contact Us</a>
+                                    </li>
+                                    <li class="header__list-item--resources">
+                                        <a href="./tri_tue.html" class="header__list_link--resources">
+                                            <h3>Trí tuệ nhân tạo trong quản lí nguồn nhân lực</h3>
+                                        </a>
+                                        <p class="header__list-link--resources--title">
+                                            Trí tuệ nhân tạo đang đưa con người và máy móc lại gần
+                                            nhau hơn. Thật thú vị! Ảnh hưởng của AI đang được cảm
+                                            nhận trong toàn bộ lĩnh vực...
+                                        </p>
+                                    </li>
+                                    <li class="header__list-item--resources">
+                                        <a href="">
+                                            <img src="nav/resoure_img-1.jpg" alt="Img" class="header__link_img" />
+                                        </a>
+                                        <a href="">
+                                            <h3 class="header__list_link-des">State of Ai in HR</h3>
+                                        </a>
+                                    </li>
+                                    <li class="header__list-item--resources">
+                                        <a href="">
+                                            <img src="nav/resoure_img-2.jpg" alt="Img"
+                                                class="header__link_img header__link_img-padding" />
+                                        </a>
+                                        <a href="">
+                                            <h3 class="header__list_link-des">
+                                                Overview of Blockchain and Bitcion (Part 4)
+                                            </h3>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <li class="header__nav--item">
+                                <a href="" class="header__nav-item--link"> Shop </a>
+                            </li>
+                            <li class="header__nav--item">
+                                <a href="./Account.html" class="header__nav-item--link">
+                                    Account
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- navigation on the tablet & pc -->
+                        <div class="nav__on-mobile">
+                            <ul class="header__nav-list">
+                                <li class="header__nav--item header__nav-cate--btn show__on-mobile-tablet">
+                                    <a href="" class="header__nav-icon--link">
+                                        <i class="fas fa-bars"></i>
+                                    </a>
+
+                                    <!-- Accordion menu on the tablet & mobile -->
+                                    <div class="menu__acc-layout">
+                                        <ul class="menu__acc-list">
+                                            <li class="accordion">
+                                                <a href="" class="menu__acc-link"> Company </a>
+                                                <a class="menu__acc-item">
+                                                    <i class="fas fa-plus"></i>
+                                                </a>
+                                            </li>
+                                            <div class="panel">
+                                                <ul class="drop__list">
+                                                    <li class="drop__list-item">
+                                                        <a href="" class="drop__list-link">Team</a>
+                                                    </li>
+                                                    <li class="drop__list-item">
+                                                        <a href="" class="drop__list-link">Carees Opportunity</a>
+                                                    </li>
+                                                    <li class="drop__list-item">
+                                                        <a href="" class="drop__list-link">Partnership</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </ul>
+
+                                        <ul class="menu__acc-list">
+                                            <li class="accordion">
+                                                <a href="" class="menu__acc-link"> Solutions </a>
+                                                <a class="menu__acc-item">
+                                                    <i class="fas fa-plus"></i>
+                                                </a>
+                                            </li>
+                                            <div class="panel">
+                                                <ul class="drop__list">
+                                                    <li class="accordion">
+                                                        <a href="" class="menu__acc-link"> QT-Cores </a>
+                                                        <a class="menu__acc-item">
+                                                            <i class="fas fa-plus"></i>
+                                                        </a>
+                                                    </li>
+                                                    <div class="panel">
+                                                        <ul class="drop__list">
+                                                            <li class="drop__list-item">
+                                                                <a href="" class="drop__list-link">Hospitaily</a>
+                                                            </li>
+                                                            <li class="drop__list-item">
+                                                                <a href="" class="drop__list-link">Trading
+                                                                    System</a>
+                                                            </li>
+                                                            <li class="drop__list-item">
+                                                                <a href="" class="drop__list-link">Consumer Lending
+                                                                    & Mortgage</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <li class="accordion">
+                                                        <a href="" class="menu__acc-link">
+                                                            QT-AI & QT-INVEST
+                                                        </a>
+                                                        <a class="menu__acc-item">
+                                                            <i class="fas fa-plus"></i>
+                                                        </a>
+                                                    </li>
+                                                    <div class="panel">
+                                                        <ul class="drop__list">
+                                                            <li class="drop__list-item">
+                                                                <a href="" class="drop__list-link">Sale OTA</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </ul>
+
+                                        <ul class="menu__acc-list">
+                                            <li class="accordion">
+                                                <a href="" class="menu__acc-link"> QT-Community </a>
+                                            </li>
+                                        </ul>
+
+                                        <ul class="menu__acc-list">
+                                            <li class="accordion">
+                                                <a href="" class="menu__acc-link"> Forums </a>
+                                                <a class="menu__acc-item">
+                                                    <i class="fas fa-plus"></i>
+                                                </a>
+                                            </li>
+                                            <div class="panel">
+                                                <ul class="drop__list">
+                                                    <li class="drop__list-item">
+                                                        <a href="" class="drop__list-link">QT-Forums</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </ul>
+
+                                        <ul class="menu__acc-list">
+                                            <li class="accordion">
+                                                <a href="./home_blog.html" class="menu__acc-link">
+                                                    Resources
+                                                </a>
+                                                <a class="menu__acc-item">
+                                                    <i class="fas fa-plus"></i>
+                                                </a>
+                                            </li>
+                                            <div class="panel">
+                                                <ul class="drop__list">
+                                                    <li class="drop__list-item">
+                                                        <a href="./home_blog.html" class="drop__list-link">QT
+                                                            Blogs</a>
+                                                    </li>
+                                                    <li class="drop__list-item">
+                                                        <a href="" class="drop__list-link">Contact Us</a>
+                                                    </li>
+                                                    <li class="drop__list-item">
+                                                        <div class="grid wide">
+                                                            <div class="row">
+                                                                <!-- <div class="drop__list-item--layout"> -->
+                                                                <div class="col m-4 c-6">
+                                                                    <div class="drop__list-item--layout">
+                                                                        <h3 class="">
+                                                                            Trí tuệ nhân tạo trong quản trị nguồn
+                                                                            nhân lực
+                                                                        </h3>
+                                                                        <p>
+                                                                            Trí tuệ nhân tạo đang đưa con người và
+                                                                            máy móc lại gần nhau hơn. Thật thú vị!
+                                                                            Ảnh hưởng của AI đang được cảm nhận
+                                                                            trong toàn bộ lĩnh vực...
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col m-4 c-6">
+                                                                    <div class="img__layout">
+                                                                        <img src="nav/resoure_img-1.jpg" alt="Img"
+                                                                            class="img__layout" />
+                                                                        <p>State of AI in HR</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col m-4 c-6">
+                                                                    <img src="nav/resoure_img-2.jpg" alt="Img"
+                                                                        class="img__layout" />
+                                                                    <p>
+                                                                        Overview of Blockchain and bitcoin(Part 4)
+                                                                    </p>
+                                                                </div>
+                                                                <!-- </div> -->
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </ul>
+                                        <ul class="menu__acc-list">
+                                            <li class="accordion">
+                                                <a href="" class="menu__acc-link"> Shop </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="menu__acc-list">
+                                            <li class="accordion">
+                                                <a href="" class="menu__acc-link"> Account </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="header__nav--item">
+                                    <a href="" class="header__nav-icon--link header__nav-icon--before">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <div class="header__nav-input">
+                                        <div class="header__nav-input--layout">
+                                            <input placeholder="Find something" type="text"
+                                                class="header__nav-input--type" />
+                                            <div class="header__nav-search--history">
+                                                <ul class="header__nav-search--list">
+                                                    <li class="header__nav-search--item">
+                                                        <a href="" class="header__nav-list--search">Company</a>
+                                                    </li>
+                                                    <li class="header__nav-search--item">
+                                                        <a href="" class="header__nav-list--search">Bitcoin</a>
+                                                    </li>
+                                                    <li class="header__nav-search--item">
+                                                        <a href="" class="header__nav-list--search">AI</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__nav--item">
+                                    <a href="" class="header__nav-icon--link">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </a>
+                                    <div class="header__nav-cart">
+                                        <div class="header__nav-cart--layout">
+                                            <img src="nav/no-cart.png" alt="No cart img" class="header__nav-no--cart" />
+                                            <h3 class="header__nav-cart--tile">
+                                                No products in the cart
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        {{{body}}}
+
+    </div>
+
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-2-4 m-6 c-12">
+                    <h3 class="footer__heading">CANADA</h3>
+                    <ul class="footer__list1">
+                        <li class="footer__list-item">Saskatchewan Office</li>
+                        <li class="footer__list-item">Phone: +1 306 491 8799</li>
+                        <li class="footer__list-item">E-mail: info@qntdata.com</li>
+                    </ul>
+                    <ul class="footer__list2">
+                        <li class="footer__list-item">British Columbia Office</li>
+                        <li class="footer__list-item">Phone: +1 306 491 8799/h4></li>
+                        <li class="footer__list-item">E-mail: info.canada@qntdata.com</li>
+                    </ul>
+                </div>
+
+                <div class="col l-2-4 m-6 c-12">
+                    <h3 class="footer__heading">VIETNAM</h3>
+                    <ul class="footer__list1">
+                        <li class="footer__list-item">Ho Chi Minh Office</li>
+                        <li class="footer__list-item">Phone: +84 904 917 075</li>
+                        <li class="footer__list-item">
+                            E-mail: info.vietnam@qntdata.com
+                        </li>
+                    </ul>
+                    <ul class="footer__list2">
+                        <li class="footer__list-item">Da Nang Office</li>
+                        <li class="footer__list-item">Phone: +84 904 917 075</li>
+                        <li class="footer__list-item">E-mail: info.danang@qntdata.com</li>
+                    </ul>
+                </div>
+
+                <div class="col l-2-4 m-6 c-12">
+                    <h3 class="footer__heading">QUICK LINKS</h3>
+                    <ul class="footer__list1">
+                        <li class="footer__list-item">
+                            <a class="footer__list-item--cate-link" href="">About Us</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-item--cate-link" href="">Our Team</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-item--cate-link" href="">Careers</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-item--cate-link" href="">Partnerships</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col l-2-4 m-6 c-12">
+                    <h3 class="footer__heading">US</h3>
+                    <ul class="footer__list1">
+                        <li class="footer__list-item">US Office</li>
+                        <li class="footer__list-item">Phone: +1 306 491 8799</li>
+                        <li class="footer__list-item">E-mail: info.canada@qntdata.com</li>
+                    </ul>
+                </div>
+
+                <div class="col l-2-4 m-12 c-12">
+                    <h3 class="footer__heading">RECENT POSTS</h3>
+                    <ul class="footer__list1">
+                        <li class="footer__list-item2">
+                            <div class="footer__list-item--img">
+                                <a href="">
+                                    <img src="nav/resoure_img-4.jpg" alt="img" class="footer__list-img" />
+                                </a>
+                            </div>
+                            <div class="footer__list-item--link">
+                                <a href="" class="footer__list-link">State of AI in HR</a>
+                                <p class="footer__list-description">February 12, 2020</p>
+                            </div>
+                        </li>
+                        <li class="footer__list-item2">
+                            <div class="footer__list-item--img">
+                                <a href="">
+                                    <img src="nav/resoure_img-5.jpg" alt="img" class="footer__list-img" />
+                                </a>
+                            </div>
+                            <div class="footer__list-item--link">
+                                <a href="" class="footer__list-link">Overview of blockchain and bitcoin (Part 4)</a>
+                                <p class="footer__list-description">September 8, 2019</p>
+                            </div>
+                        </li>
+                        <li class="footer__list-item2">
+                            <div class="footer__list-item--img">
+                                <a href="">
+                                    <img src="nav/resoure_img-3.jpg" alt="img" class="footer__list-img" />
+                                </a>
+                            </div>
+                            <div class="footer__list-item--link">
+                                <a href="" class="footer__list-link">Overview of blockchain and bitcoin (Part 3)</a>
+                                <p class="footer__list-description">September 8, 2019</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr / style="background-color:var(--text-menu-drop); margin: 0;">
+            <div class="row footer__info-layout">
+                <div class="footer__infor col l-6 m-6 c-12">
+                    <p class="footer__infor-text">
+                        Copyright © 2020 <a href="">QT-Data Inc.</a> Canada. All rights
+                        reserved.
+                    </p>
+                </div>
+
+                <div class="footer__infor col l-6 m-6 c-12">
+                    <div class="footer__socail-list">
+                        <a href="" class="footer__socail-link--face">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="footer__socail-link--twi">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="footer__socail-link--linkin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="footer__socail-link--gmail">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>

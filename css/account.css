@@ -1,0 +1,201 @@
+.section{
+    height:100px;
+    background-color: rgba(109, 100, 89, 0.288);
+}
+.h1{
+    margin: 0px 0px 20px;
+    padding: 0px;
+    color: rgb(51, 51, 51);
+    
+    letter-spacing: -0.015em;
+    
+}
+.b-title{
+  width: 100%;
+}
+
+ 
+
+
+.content {
+    position: relative;
+    clear: both;
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 1px 0px 48px;
+    z-index: 1;
+    max-width: 100%;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.section {
+    display: block;
+}
+.body {
+   position: relative;
+    background: #fafafa;
+    color: #1b345a;
+    color: #777;
+    font-family: 14px 'Manjari', Helvetca, Arial, sans-serif;
+    line-height: 20px;
+    font-weight: normal;
+    font-weight: 400;
+    overflow: hidden;
+}
+.root {
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+}
+.page{
+    max-width: 60%;
+}
+
+form {width: 100%;
+    border: 3px solid rgba(80, 73, 73, 0.445);}
+
+input[type=text], input[type=password] {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+    background-color: #f39a15;
+    color: white;
+    padding: 15px 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 20%;
+    height: 50px;
+    float: none;
+    display: block;
+    
+}
+
+button:hover {
+
+  opacity: 0.8;
+}
+
+.checkboxx :hover{
+    opacity: 0.9;
+
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 0px;
+}
+
+
+@media  screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: left;
+  }
+  .section , .button ,.aside {
+     width: 100%;
+  }
+}
+article{
+  width: 60%;
+  padding-left: 10px;
+    display: block;
+    float: left;
+}
+
+.container{
+    padding: 30px;
+}
+
+aside{
+    max-width: 35%;
+  margin-top: 60px;
+  float: left;
+  margin-left: 15px;
+  padding-left: 5px;
+}
+.breadcrumb {
+    min-height: 90px;
+    background-color: #333;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+    clear: both;
+    padding: 0 20px;
+}
+footer, .breadcrumb, .lead {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.content .single {
+    padding-top: 50px;
+    padding-bottom: 39px;
+}
+
+.main{
+    float: none;
+    width: auto;
+    max-width: none;
+    margin: 0 0 20px;
+}
+#user-registration *, #user-registration.user-registration {
+    box-sizing: border-box;
+}
+.ur-frontend-form * {
+    box-sizing: border-box;
+}
+form {
+    display: block;
+    margin-top: 1em;
+}
+b, strong {
+    font-weight: 700;
+    font-size: 16px;
+}
+strong {
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+}
+ a{
+     font-size: 14px;
+    text-decoration: none;
+    color: #f39a15;
+}
+a:hover{
+    color: #005a87;
+}
+
+h3{
+    font-size: 25px;
+    color: #777;
+    margin-top: 5px;
+}
+th {
+    padding: 5px 3px;
+}
+td{
+    padding: 5px 0px;
+}
+p{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+
+
