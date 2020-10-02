@@ -22,9 +22,14 @@ app.get('/solutions',function(req,res){
 app.get('/qt-community',function(req,res){
     res.render('qt-community')
 });
-app.get ('/Account', function (req, res) {
+//mấy cái chỗ get ni để chữ thường thôi
+app.get ('/account', function (req, res) {
   res.render ('Account');
 });
+app.get ('/fogot-password', function (req, res) {
+  res.render ('FogotPassword');
+});
+
 
 
 
