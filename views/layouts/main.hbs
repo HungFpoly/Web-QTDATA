@@ -7,51 +7,33 @@
     <title>Document</title>
 
     {{!-- Nơi bỏ css của thư viện --}}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    {{{cssTV}}}
+    {{{cssTV2}}}
+    {{{cssTV3}}}
+    {{{cssTV4}}}
 
-    
+    {{!-- CSS của navigation --}}
+    <link rel="stylesheet" href="/nav/base.css" />
+    <link rel="stylesheet" href="/nav/grid_system.css" />
+    <link rel="stylesheet" href="/nav/main.css" />
+    <link rel="stylesheet" href="/nav/responsive.css" />
+    <link rel="stylesheet" href="/nav/menudrop_on-mobile.css" />
 
     {{!-- Nơi bỏ css của mình --}}
-    <link rel="stylesheet" href="nav/base.css" />
-    <link rel="stylesheet" href="nav/grid_system.css" />
-    <link rel="stylesheet" href="nav/main.css"/>
-    <link rel="stylesheet" href="nav/responsive.css" />
-    <link rel="stylesheet" href="nav/menudrop_on-mobile.css" />
-    {{!-- css của Tính --}}
-    <link rel="stylesheet" href="/Solution_css.css" />
-    <link rel="stylesheet" href="/QT-Cores_css.css" />
-    <link rel="stylesheet" href="/Hospitality_css.css" />
-    <link rel="stylesheet" href="/Trading_System_css.css" />
-     <link rel="stylesheet" href="qt-forum.css">
-    <link rel="stylesheet" href="community.css">
-     <link rel="stylesheet" href="home_blog.css">
-    
-
-    <link rel="stylesheet" href="/account.css">
-    <link rel="stylesheet" href="/fogot.css">
+    <link rel="stylesheet" href="/{{myCSS}}">
 
     {{!-- Nơi bỏ js của thư viện --}}
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    {{{jsTV}}}
+    {{{jsTV2}}}
+    {{{jsTV3}}}
+    {{{jsTV4}}}
+    {{{jsTV5}}}
+    {{{jsTV6}}}
     {{!-- Nơi bỏ js của mình --}}
-     <script src="validate-form.js"></script>
-     
+    <script src="/{{myJS}}"></script>
 
 </head>
 
@@ -64,7 +46,7 @@
                         <ul class="header__nav-list">
                             <li class="header__nav--item">
                                 <a href="" class="header__nav-item--img">
-                                    <img src="nav/logo.png" alt="Logo" class="logo" />
+                                    <img src="/nav/logo.png" alt="Logo" class="logo" />
                                 </a>
                             </li>
                         </ul>
@@ -96,19 +78,18 @@
 
                                     <ul class="header__list-drop--solutions">
                                         <li class="header__list-item--title">
-                                            <a href="./QT-Cores.html"
-                                                class="header__list_link-title--header">QT-Cores</a>
-                                            <a href="./Hospitality.html" class="header__list_link-title">Hospitaily</a>
-                                            <a href="./Trading_system.html" class="header__list_link-title">Trading
+                                            <a href="/qt-cores" class="header__list_link-title--header">QT-Cores</a>
+                                            <a href="/hospitality" class="header__list_link-title">Hospitaily</a>
+                                            <a href="/trading-system" class="header__list_link-title">Trading
                                                 System</a>
-                                            <a href="./consumer-lending-mortgage.html"
+                                            <a href="/consumer-lending-mortgage"
                                                 class="header__list_link-title">Consumer Lending & Mortgage</a>
                                         </li>
 
                                         <li class="header__list-item--title">
-                                            <a href="./qt-ai-qt-invest.html" class="header__list_link-title--header">QT
+                                            <a href="/qt-ai-qt-invest" class="header__list_link-title--header">QT
                                                 AI & QT INVEST</a>
-                                            <a href="./sale-ota.html" class="header__list_link-title">Sale OTA</a>
+                                            <a href="/sale-ota" class="header__list_link-title">Sale OTA</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -120,7 +101,7 @@
                             </li>
                             <div class="header__nav-forums">
                                 <li class="header__nav--item">
-                                    <a href="" class="header__nav-item--link"> Forums </a>
+                                    <a href="/qt-forum" class="header__nav-item--link"> Forums </a>
 
                                     <ul class="header__list_drop-forums">
                                         <li class="header__list-item--forums">
@@ -132,17 +113,17 @@
                             </div>
                             <div class="header__nav-resources">
                                 <li class="header__nav--item">
-                                    <a href="./home_blog.html" class="header__nav-item--link">
+                                    <a href="/qt-blog" class="header__nav-item--link">
                                         Resources
                                     </a>
                                 </li>
                                 <ul class="header__list_drop-resources">
                                     <li class="header__list-item--resources">
-                                        <a href="./home_blog.html" class="header__list_link--resources">QT Blogs</a>
+                                        <a href="/qt-blog" class="header__list_link--resources">QT Blogs</a>
                                         <a href="" class="header__list_link--resources">Contact Us</a>
                                     </li>
                                     <li class="header__list-item--resources">
-                                        <a href="./tri_tue.html" class="header__list_link--resources">
+                                        <a href="/tri_tue" class="header__list_link--resources">
                                             <h3>Trí tuệ nhân tạo trong quản lí nguồn nhân lực</h3>
                                         </a>
                                         <p class="header__list-link--resources--title">
@@ -153,7 +134,7 @@
                                     </li>
                                     <li class="header__list-item--resources">
                                         <a href="">
-                                            <img src="nav/resoure_img-1.jpg" alt="Img" class="header__link_img" />
+                                            <img src="/nav/resoure_img-1.jpg" alt="Img" class="header__link_img" />
                                         </a>
                                         <a href="">
                                             <h3 class="header__list_link-des">State of Ai in HR</h3>
@@ -161,7 +142,7 @@
                                     </li>
                                     <li class="header__list-item--resources">
                                         <a href="">
-                                            <img src="nav/resoure_img-2.jpg" alt="Img"
+                                            <img src="/nav/resoure_img-2.jpg" alt="Img"
                                                 class="header__link_img header__link_img-padding" />
                                         </a>
                                         <a href="">
@@ -177,7 +158,7 @@
                                 <a href="" class="header__nav-item--link"> Shop </a>
                             </li>
                             <li class="header__nav--item">
-                                <a href="./Account.html" class="header__nav-item--link">
+                                <a href="/account" class="header__nav-item--link">
                                     Account
                                 </a>
                             </li>
@@ -279,7 +260,7 @@
                                             <div class="panel">
                                                 <ul class="drop__list">
                                                     <li class="drop__list-item">
-                                                        <a href="/qt-forum.hbs" class="drop__list-link">QT-Forums</a>
+                                                        <a href="/qt-forum" class="drop__list-link">QT-Forums</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -287,7 +268,7 @@
 
                                         <ul class="menu__acc-list">
                                             <li class="accordion">
-                                                <a href="./home_blog.html" class="menu__acc-link">
+                                                <a href="/qt-blog" class="menu__acc-link">
                                                     Resources
                                                 </a>
                                                 <a class="menu__acc-item">
@@ -297,7 +278,7 @@
                                             <div class="panel">
                                                 <ul class="drop__list">
                                                     <li class="drop__list-item">
-                                                        <a href="./home_blog.html" class="drop__list-link">QT
+                                                        <a href="/qt-blog" class="drop__list-link">QT
                                                             Blogs</a>
                                                     </li>
                                                     <li class="drop__list-item">
@@ -323,13 +304,13 @@
                                                                 </div>
                                                                 <div class="col m-4 c-6">
                                                                     <div class="img__layout">
-                                                                        <img src="nav/resoure_img-1.jpg" alt="Img"
+                                                                        <img src="/nav/resoure_img-1.jpg" alt="Img"
                                                                             class="img__layout" />
                                                                         <p>State of AI in HR</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col m-4 c-6">
-                                                                    <img src="nav/resoure_img-2.jpg" alt="Img"
+                                                                    <img src="/nav/resoure_img-2.jpg" alt="Img"
                                                                         class="img__layout" />
                                                                     <p>
                                                                         Overview of Blockchain and bitcoin(Part 4)
@@ -385,7 +366,8 @@
                                     </a>
                                     <div class="header__nav-cart">
                                         <div class="header__nav-cart--layout">
-                                            <img src="nav/no-cart.png" alt="No cart img" class="header__nav-no--cart" />
+                                            <img src="/nav/no-cart.png" alt="No cart img"
+                                                class="header__nav-no--cart" />
                                             <h3 class="header__nav-cart--tile">
                                                 No products in the cart
                                             </h3>
@@ -472,7 +454,7 @@
                         <li class="footer__list-item2">
                             <div class="footer__list-item--img">
                                 <a href="">
-                                    <img src="nav/resoure_img-4.jpg" alt="img" class="footer__list-img" />
+                                    <img src="/nav/resoure_img-4.jpg" alt="img" class="footer__list-img" />
                                 </a>
                             </div>
                             <div class="footer__list-item--link">
@@ -483,7 +465,7 @@
                         <li class="footer__list-item2">
                             <div class="footer__list-item--img">
                                 <a href="">
-                                    <img src="nav/resoure_img-5.jpg" alt="img" class="footer__list-img" />
+                                    <img src="/nav/resoure_img-5.jpg" alt="img" class="footer__list-img" />
                                 </a>
                             </div>
                             <div class="footer__list-item--link">
@@ -494,7 +476,7 @@
                         <li class="footer__list-item2">
                             <div class="footer__list-item--img">
                                 <a href="">
-                                    <img src="nav/resoure_img-3.jpg" alt="img" class="footer__list-img" />
+                                    <img src="/nav/resoure_img-3.jpg" alt="img" class="footer__list-img" />
                                 </a>
                             </div>
                             <div class="footer__list-item--link">
