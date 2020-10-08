@@ -17,6 +17,14 @@
         justify-content: center;
 
     }
+    /* team pages */
+    .body__heading_layout{
+        flex-direction: column;
+        text-align: center;
+    }
+    .body__heading_layout-content{
+        width: 100%;
+    }
    
 }
 
@@ -45,6 +53,7 @@
         display: flex;
         margin: 0 auto;
     }
+    
 }
 
 
@@ -98,4 +107,50 @@
     .footer__socail-list{
         text-align: center;
     } 
+
+    /* team page */
+    .menu__team{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu__team_item{
+        margin-bottom: 10px;
+    }
+
+    .footer__section{
+        flex-direction:column-reverse;
+        padding: 20px 0;
+    }
+    .footer__section_title{
+        text-align: center;
+    }
+    /* teampgae */
+    .body__heading_layout-content > h3{
+        line-height: 3rem;
+    }
+
+    .body__container_body1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .body__container_body-link{
+        display: flex;
+        max-width: 310px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+    .body__container_employee-link{
+        justify-content: center;
+    }
+
+
+    .body__container_list-body-employe--link{
+        justify-content: center;
+    }
+    .container__position_list{
+        text-align: center;
+    }
+
 }

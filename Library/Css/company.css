@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 90px;
+    background-color: #333333;
+}
+
+.menu__team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.menu__team_item{
+    padding-left: 0px;
+    display: flex;
+}
+
+.menu__team_title{
+    list-style: none;
+    color: #a69e93;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.menu__team_cate{
+    list-style: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.menu__team_link{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #a69e93;
+    display: block;
+    margin-right: 18px;
+}
+
+.menu__team_link:hover{
+    color: #fff;
+}
+
+.body__content{
+    height: 360px;
+    border-bottom: 1px solid #a69e93 ;
+}
+
+.body__content_layout{
+    text-align: center;
+}
+
+.body__content_layout > h3{
+    margin: 60px 0 36px 0;
+    font-size:2.4rem ;
+    color: var(--text-color);
+}
+
+.body__content_layout > p{
+    font-size: 1.4rem;
+    color: #a69e93;
+    font-style: italic;
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+.body__section{
+    margin-top: 60px;
+    border-bottom: 1px solid #a69e93 ;
+}
+
+.body__section_heading{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 42px;
+}
+
+.body__section_body{
+    display: flex;
+    max-width: 834px;
+    margin: 0 auto;
+}
+
+.body__section_body-content{
+    padding-left: 32px;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 56px;
+}
+
+.footer__section{
+    height: 146px;
+    max-width: 976px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__section_title{
+    font-size: 2.2rem;
+    color: var(--text-color);
+}
+
+.section__btn{
+    display: block;
+    text-decoration: none;
+    height: 46px;
+    width: 184px;
+    color: #fff;
+    background-color: #70c14a;
+    padding-left: 30px;
+    line-height: 46px;
+    font-size: 1.2rem;
+}
+.section__btn:hover{
+    background-color:#61b23b ;
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 90px;
+    background-color: #333333;
+}
+
+.menu__team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.menu__team_item{
+    padding-left: 0px;
+    display: flex;
+}
+
+.menu__team_title{
+    list-style: none;
+    color: #a69e93;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.menu__team_cate{
+    list-style: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.menu__team_link{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #a69e93;
+    display: block;
+    margin-right: 18px;
+}
+
+.menu__team_link:hover{
+    color: #fff;
+}
+
+.body__heading{
+    /* padding-bottom: 60px; */
+    box-shadow: 0px 1px 0px 0px  rgb(171, 169, 169);
+}
+
+.body__heading_layout{
+    display: flex;
+    min-height: 370px;
+}
+
+.body__heading_layout-content{
+    width: 70%;
+    
+}
+
+.layout__img{
+    padding-top: 80px;
+}
+
+.body__heading_layout-content > h3{
+    margin: 78px 0 44px 0;
+    font-size: 3.5rem;
+    color: var(--text-color);
+    line-height: 3.5rem;
+}
+
+.body__heading_layout-content > h5{
+    margin: 0;
+    color: #999;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.body__heading_layout-content > p{
+    margin-top: 16px;
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.container__info_label{
+    margin: 20px 0;
+    max-width: 730px;
+    box-shadow: 0 0 6px 0 rgb(171, 169, 169);
+    border-radius: 2px;
+    border-top: 2px solid  #f28728;
+}
+.container__info_label > h3{
+    text-align: center;
+    padding: 20px;
+    color: var(--text-color);
+    font-size: 2.4rem;
+}
+.container__info_label-form{
+   padding: 10px 10px;
+}
+
+.container__info_label-form--layout{
+    display: flex;
+    flex-direction: column;
+}
+
+.container__info_bel-layout{
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+.container__info_input-layout{
+    padding: 5px 0 5px 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.submit__btn{
+    margin-top: 20px;
+    height: 44px;
+    width: 92px;
+    font-size: 2rem;
+    color: #fff;
+    background: #f28728;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 3px 0 rgb(171, 169, 169);
+}
