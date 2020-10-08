@@ -83,6 +83,15 @@
     color: #777;
 }
 
+.container__info{
+    margin-top: 20px;
+    display: flex;
+}
+
+.container__info_text-layout{
+    max-width: 730px;
+}
+
 .container__info_label{
     margin: 20px 0;
     max-width: 730px;
@@ -126,4 +135,8 @@
     border: none;
     cursor: pointer;
     box-shadow: 0 0 3px 0 rgb(171, 169, 169);
+}
+
+.container__info_label2{
+    margin: 20px 0 0 100px;
 }
