@@ -3,7 +3,7 @@ const express = require("express");
 /////////////////////////////////////
 /////Gọi lại các hàm ở dòng dưới////
 ///////////////////////////////////
-const {addUser,deleteUser,findUserByName} = require("./controller.js");
+const {addUser,deleteUser,findUserByName,login} = require("./controller.js");
 
 const router = express.Router();
 
@@ -221,4 +221,6 @@ router.get("/qt-forum", function (req, res) {
 ////////////////////////////////////////
 //test
 router.get("/findByName/:name",findUserByName)
+// tes login
+router.post("/login", login)
 module.exports = router;

@@ -33,8 +33,21 @@ function findUserByName(req,res){
         });
      });  
 }
+async function login (req, res) {
+    User.findOne({ email: req.body.email }).exec(function (err, result) {
+    if (!result) {
+    return res.status(400).send("Email không tồn tại")
+    }
+    if (req.body.password === result.password) {
+         return res.send(result)
+    }
+    return res.status(401).send({
+        message: "Mật khẩu không chính xác"
+         });
+    })
+}
 
 /////////////////////////////////////
-/////Xuất hàm ra ở dòng dưới/////////
+///// Xuất hàm ra ở dòng dưới/////////
 ///////////////////////////////////
-module.exports = {addUser,deleteUser,findUserByName}
+module.exports = {addUser,deleteUser,findUserByName, login}
